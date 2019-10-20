@@ -1,0 +1,24 @@
+{
+  "name": "obasa_ifekitan_interactive",
+  "version": "1.0.0",
+  "description": "a responsive one-page application to showcase an interactive implementation of infographic design.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iobasa/Obasa_Ifekitan_Interactive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iobasa/Obasa_Ifekitan_Interactive/issues"
+  },
+  "homepage": "https://github.com/iobasa/Obasa_Ifekitan_Interactive#readme"
+}
