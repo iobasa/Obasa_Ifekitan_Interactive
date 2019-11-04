@@ -1,24 +1,28 @@
 {
-  "name": "obasa_ifekitan_interactive",
+  "name": "testmodules",
   "version": "1.0.0",
-  "description": "a responsive one-page application to showcase an interactive implementation of infographic design.",
+  "description": "using classes with node and express",
   "main": "app.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "gulp": "^4.0.2"
-  },
-  "devDependencies": {},
   "scripts": {
-    "start": "node app"
+    "start": "nodemon app"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iobasa/Obasa_Ifekitan_Interactive.git"
+    "url": "git+https://github.com/Trevor-FanshaweC/DayOne_Fall19.git"
   },
-  "author": "",
+  "keywords": [
+    "classes",
+    "node",
+    "javascript"
+  ],
+  "author": "TVR",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iobasa/Obasa_Ifekitan_Interactive/issues"
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "mysql": "^2.17.1"
   },
-  "homepage": "https://github.com/iobasa/Obasa_Ifekitan_Interactive#readme"
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
 }

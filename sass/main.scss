@@ -1,11 +1,25 @@
 // do your imports first, so that they're available everywhere
 @import "_vars";
 @import "modules/_navbar";
-@import "modules/_header";
 @import "modules/_body";
+@import "modules/_lightbox";
+
+body {
+	font-family: 'Courier New', Courier, monospace,sans-serif !important;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 5rem;
+  color: white;
+}
 
 .hidden {
 	display: hidden;
+}
+
+.sitecontainer {
+	background-image: url("../images/background.png");
+	background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
