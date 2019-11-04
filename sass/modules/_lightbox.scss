@@ -1,0 +1,38 @@
+.lightbox { 
+    display: none;
+    //display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%;
+    height: 200px;
+    margin-left: 8px;
+    position: fixed;
+    top: 130;
+    z-index: 5000;
+    padding: 75px;
+
+    .sidebar {
+        flex: 1;
+    }
+    
+    .lb-content {
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        flex: 3;
+    }
+
+}
+
+.show-lb {
+    height: 100%;
+    max-height: 200px;
+    display: flex !important; 
+}
+
+.u-social {
+    li { 
+        display: inline-block;
+        padding: 10px;
+    }
+}
