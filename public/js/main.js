@@ -36,7 +36,6 @@ const myVM = (() => {
         targetImg.src = person.imgsrc;
 
         lightbox.classList.add('show-lb');
-
     }
 
     function getUserData(event) {
@@ -44,7 +43,7 @@ const myVM = (() => {
         event.preventDefault(); 
         //debugger;
         // find the image closest to the anchor tag and get its src property
-        let imgSrc = this.previousElementSibling.getAttribute('src');
+        let imgSrc = this.firstElementChild.getAttribute('src');
         let url = `/${this.getAttribute('href')}`; // /1
 
         fetch(url) // go get the data
@@ -63,8 +62,8 @@ const myVM = (() => {
 
     userButtons.forEach(button => button.addEventListener('click', getUserData))
 
-    lightbox.querySelector('.resetButton').addEventListener('click', function() {
-        lightbox.classList.remove('show-lb');
-    })
+    // lightbox.querySelector('.resetButton').addEventListener('click', function() {
+    //     lightbox.classList.remove('show-lb');
+    // })
 
 })();
