@@ -2,14 +2,15 @@
     display: none;
     //display: flex;
     flex-direction: row;
-    min-height: 100vh;
-    width: 100%;
-    height: 200px;
+    min-height: 50vh;
+    width: 75%;
     margin-left: 8px;
-    position: fixed;
-    top: 130;
     z-index: 5000;
     padding: 75px;
+    position: absolute;
+    top: 75px;
+    left: 175px;
+    bottom: 175px;
 
     .sidebar {
         flex: 1;
