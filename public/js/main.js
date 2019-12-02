@@ -17,7 +17,7 @@ const myVM = (() => {
 
         let bioContent = `
         <div class="toppings">
-        <img src="${person.TOPPINGS}" alt="favs">
+        <img src="${person.TOPPINGS}">
         </div>
         <div class="data">
         <div id="title">
