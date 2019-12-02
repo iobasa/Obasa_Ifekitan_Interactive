@@ -36,7 +36,6 @@ const myVM = (() => {
         targetImg.src = person.imgsrc;
 
         lightbox.classList.add('show-lb');
-
     }
 
     function getUserData(event) {
